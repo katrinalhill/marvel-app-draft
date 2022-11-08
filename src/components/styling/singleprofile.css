@@ -1,7 +1,7 @@
 .character-container {
     display: grid;
     position: flex;
-    background-color: #999;
+    background-color: rgb(126, 124, 124);
     color: white;
     padding: 10px;
     margin: 5px;
@@ -10,7 +10,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: auto;
     background-size: cover;
 
     
@@ -36,8 +36,10 @@
 }
 
 .char-image{
+
     display: flex;
-    display: left;
+    /* display: center; */
+    justify-content: center;
     background-color: #666;
     width: 20rem;
 

@@ -21,6 +21,7 @@ function Header() {
         <div className="top-container">
             
             <div className="header">
+                
         <StyleHeader>
         DOMA: Enhanced Individual Search
         </StyleHeader>
