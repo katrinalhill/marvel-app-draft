@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.image{
+.char-image{
     display: flex;
     display: left;
     background-color: #666;
@@ -62,7 +62,7 @@ width: 20rem;
     width: 20rem;
 }
 
-.events-container{
+.char-events-container{
     background-color: #666;
     margin-left: auto;
     margin-right: auto;

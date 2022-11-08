@@ -11,7 +11,6 @@
 }
 
 
-
 .event-info-container{
 
 }
@@ -31,7 +30,7 @@
     width: 20rem;
 }
 
-.image{
+.single-event-image{
     display: flex;
     display: left;
     background-color: #666;
@@ -57,9 +56,6 @@
     width: 20rem;
 }
 
-
-
-
 .event-link-text{
     background-color: #666;
     width: 20rem;
@@ -70,7 +66,7 @@
     border-radius: 5px;
 }
 
-.event-card{
+.single-event-card{
 text-align: center;
 padding: 8px;
 margin: 5px;

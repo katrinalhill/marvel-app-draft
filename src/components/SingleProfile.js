@@ -54,14 +54,6 @@ function SingleProfile({character}) {
     
   })
 
-  
-
-  
-
-
-
-
-
 
 
 
@@ -91,8 +83,8 @@ function SingleProfile({character}) {
       
           <h1 className='title'>{character.name}  </h1>
           <h2 className='alignment'>Alignment: {character.biography.alignment} </h2>
-          <div className='image'>
-            <img className='image' src={character.image.url} alt=''/>
+          <div className='char-image'>
+            <img className='char-image' src={character.image.url} alt=''/>
           </div>
           <h2 className='alignment'>Identification Number: {character.id} </h2>
 
@@ -146,7 +138,7 @@ function SingleProfile({character}) {
           <li key='s'> Relatives: {character.connections.relatives} </li>
         </ul>
 
-        <div className='events-container'> 
+        <div className='char-events-container'> 
         Events:
             <div className='character-events'>{
                 (eventURL === '' ? <div>No known event data.</div> : 

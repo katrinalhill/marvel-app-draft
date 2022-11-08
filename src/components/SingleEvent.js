@@ -35,21 +35,21 @@ useEffect(() => {
         .catch(err => console.log(err))
         )
     ).then(data => setFetchResults(data))
-    console.log('fetch results: ', fetchResults)
+    
 }, [eventCharacters])
 
   fetchResults.map(result => {
     if (result.response === 'success'){
       matchingResults.push(result)
-      console.log('match results: ', matchingResults)
+      
     }})
 
   return (
     <div className='event-container'>
 
       <h1 className='title'>{event.event.title}</h1>
-      <div className='image'>
-            <img className='image' src={event.event.thumbnail.path +'.'+ event.event.thumbnail.extension} alt=''/>
+      <div className='single-event-image'>
+            <img className='single-event-image' src={event.event.thumbnail.path +'.'+ event.event.thumbnail.extension} alt=''/>
       </div>
       <h2 className='event-id-num'>Event Identification Number: {event.event.id} </h2>
 
@@ -74,7 +74,7 @@ useEffect(() => {
                         <Link to={`/characters/${character.results[0].id}`} key={character.results[0].id} onClick={() => {
                             setCharacterCon(character.results[0])
                         }} className='event-link-text'>
-                            <div className='event-card' key={character.results[0].id}>
+                            <div className='single-event-card' key={character.results[0].id}>
                                 <div>{character.results[0].name}</div> *** 
                             </div>
                         </Link>
