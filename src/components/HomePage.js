@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
  <>
- <h1 className='title'>DOMA Directory Page</h1>
+ 
+ {/* <h1 className='title'>DOMA Directory Page</h1> */}
  <div className = 'home-button-container'>
- <button className="noselect">Database</button>
+  {/* <button className="noselect">Not Database</button>  */}
  
  <Link to={"/characters"}>
  <button className="noselect">People</button>
@@ -17,8 +18,16 @@ const HomePage = () => {
  </Link>
  
  </div>
+
+
 </>
   )
 }
 
 export default HomePage
+
+ {/* <div className="searchBar"> 
+    <input type="text" placeholder="Search People / Events"></input>
+    <button>Go</button>
+
+    </div> */}

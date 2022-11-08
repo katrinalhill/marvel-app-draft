@@ -42,6 +42,7 @@ const MainSearch = () => {
           placeholder="Search DOMA Database"
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+        
         <div className="hero-results-container">
         {results.map((result) => (
           <Link to={`/characters/${result.id}`} onClick={() => {
