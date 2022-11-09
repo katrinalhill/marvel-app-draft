@@ -39,6 +39,7 @@ const MainSearch = () => {
     return (
       <>
         <input
+          className='main-search-bar'
           placeholder="Search DOMA Database"
           onChange={(e) => setSearchTerm(e.target.value)}
         />

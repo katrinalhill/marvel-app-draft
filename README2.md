@@ -49,3 +49,4 @@ Acknowledgments
     o Marvel API
     o Style Component
     o Galvanize SDI 13
+    o BootStrap

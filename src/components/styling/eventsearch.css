@@ -1,9 +1,10 @@
-input {
+.event-search-bar {
   display: grid;
-  max-width: 400px;
-  min-height: 50px;
+  width: 200px;
+  height: 50px;
   justify-content: center;
   align-items: center;
+  margin: 120px auto;
 }
 
 
@@ -14,6 +15,7 @@ input {
     gap: 1em;
     margin-left: auto;
     margin-right: auto;
+    
   }
 
 .event-thumbnail {
@@ -25,13 +27,16 @@ input {
   }
   
 .event-card {
-    text-align: center;
-    padding: 10px;
-    width: 200px;
-    border-radius: 5px;
-    /* padding: 1em; */
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    text-transform: capitalize;
-    text-decoration-line: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  /* padding: 1em; */
+  box-shadow: rgba(236, 18, 18, 0.2) 0px 2px 8px 0px;
+  text-transform: capitalize;
+  text-decoration-line: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  color:black;
+  background-color: rgb(187, 185, 183, .25);
   }

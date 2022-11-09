@@ -6,40 +6,77 @@
 function MostWanted() {
   return (
     <>
-      <div className="grid-container">
-          <h1 className="hdr">TOP 10: MOST WANTED</h1>
-          <div className="img1">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/12.jpg" height="150" padding="0" margin="0" /><hr color="maroon" />
+          <div className="box">
+          <div className="leftright">
+          <br /><br /><br /><br /><br /><br /><h1>TOP 10: MOST WANTED</h1>
           </div>
-          <div className="nombre1">MAGNETO<hr color="maroon" /></div>
-        <div className="img2">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/667.jpg" height="150" /></div>
-        <div className="nombre2">CYBORG SUPERMAN</div>
-        <div className="img3">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/10090.jpg" height="150" /></div>
-        <div className="nombre3">DEADPOOL</div>
-        <div className="img4">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" height="150" /></div>
-        <div className="nombre4">ABOMINATION</div>
-        <div className="img5">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/1322.jpg" height="150" /></div>
-        <div className="nombre5">MEPHISTO</div>
-        <div className="img6">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/1075.jpg" height="150" /></div>
-        <div className="nombre6">CY-GOR</div>
-        <div className="img7">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/817.jpg" height="150" /></div>
-        <div className="nombre7">MYSTIQUE</div>
-        <div className="img8">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/1305.jpg" height="150" /></div>
-        <div className="nombre8">THANOS</div>
-        <div className="img9">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/1358.jpg" height="150" /></div>
-        <div className="nombre9">AIR-WALKER</div>
-        <div className="img10">
-          <img src="https://www.superherodb.com/pictures2/portraits/10/100/792.jpg" height="150" /></div>
-        <div className="nombre10">SWAMP THING</div>
-      </div>
+          </div>
+          <hr />
+          <div className="box">
+            <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/12.jpg" height="150" padding="0" margin="0" />
+            </div>
+            <div className="right">
+              MAGNETO
+            </div>
+          </div>
+          <hr />
+          <div className="box">
+            <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/667.jpg" height="150" padding="0" margin="0" />
+            </div>
+            <div className="right">
+              CYBORG SUPERMAN
+            </div>
+          </div>
+          <hr />
+          <div className="box">
+              <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/10090.jpg" height="150" /></div>
+            <div className="right">DEADPOOL</div>
+            </div>
+            <hr />
+          <div className="box">
+              <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/1.jpg" height="150" /></div>
+            <div className="right">ABOMINATION</div>
+            </div>
+            <hr />
+          <div className="box">
+              <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/1322.jpg" height="150" /></div>
+            <div className="right">MEPHISTO</div>
+            </div>
+            <hr />
+          <div className="box">
+              <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/1075.jpg" height="150" /></div>
+            <div className="right">CY-GOR</div>
+            </div>
+            <hr />
+          <div className="box">
+              <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/817.jpg" height="150" /></div>
+            <div className="right">MYSTIQUE</div>
+            </div>
+            <hr />
+          <div className="box">
+              <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/1305.jpg" height="150" /></div>
+            <div className="right">THANOS</div>
+            </div>
+            <hr />
+          <div className="box">
+              <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/1358.jpg" height="150" /></div>
+            <div className="right">AIR-WALKER</div>
+            </div>
+            <hr />
+          <div className="box">
+              <div className="left">
+              <img src="https://www.superherodb.com/pictures2/portraits/10/100/792.jpg" height="150" /></div>
+            <div className="right">SWAMP THING</div>
+        </div>
     </>
   )
 }

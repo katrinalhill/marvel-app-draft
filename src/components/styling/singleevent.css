@@ -1,7 +1,11 @@
+
+
+
+
 .event-container {
     display: grid;
     position: flex;
-    background-color: #999;
+  
     color: white;
     padding: 10px;
     margin: 5px;
@@ -67,26 +71,23 @@
 }
 
 .single-event-card{
-text-align: center;
-padding: 8px;
-margin: 5px;
-width: 300px;
-
-border: .25rem;
-border-radius: 5px;
-border-color: black;
-border-style: solid;
-/* padding: 1em; */
-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-font-size: 14px;
-text-transform: capitalize;
-text-decoration-line: none;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    /* padding: 1em; */
+    box-shadow: rgba(236, 18, 18, 0.2) 0px 2px 8px 0px;
+    text-transform: capitalize;
+    text-decoration-line: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:black;
+    background-color: rgb(187, 185, 183, .25);
 }
 
 .event-card:hover {
-    transform: scale(1.05);
-    background-color: aliceblue;
-    color: black;
+    box-shadow: rgb(255, 255, 255);
+  scale: 1.05;
+  border-color: black;
+  border-width: 5px;
     }

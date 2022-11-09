@@ -1,7 +1,14 @@
-.character-container {
+ 
+.single-profile-container{
+display: grid;
+top: 50;
+}
+ 
+ 
+ 
+ .character-container {
     display: grid;
     position: flex;
-    background-color: rgb(126, 124, 124);
     color: white;
     padding: 10px;
     margin: 5px;
@@ -12,8 +19,6 @@
     margin-right: auto;
     width: auto;
     background-size: cover;
-
-    
 }
 
 .character-info-container{
@@ -38,7 +43,6 @@
 .char-image{
 
     display: flex;
-    /* display: center; */
     justify-content: center;
     background-color: #666;
     width: 20rem;
@@ -84,7 +88,6 @@ width: 20rem;
     padding: 10px;
     width: 200px;
     border-radius: 5px;
-    /* padding: 1em; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-size: 14px;
     text-transform: capitalize;
@@ -100,10 +103,11 @@ width: 20rem;
 
 .event-link-text{
     text-decoration-line: none;
-    
 }
+    
 
-.chart-container{
+
+/* .chart-container{
     border-style: solid;
     border-color: black;
     border-width: .10rem;
@@ -113,4 +117,42 @@ width: 20rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
    
+} */
+
+.chart-container{
+    border-style: solid;
+    border-color: black;
+    border-width: .10rem;
+    width: 40rem;
+    background-color: #666;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+
+.hiddenButton{
+    display: none;
+}
+
+.hiddenButton2{
+    visibility: hidden; 
+}
+
+.compare-container{
+    text-decoration-line: none;
+    
+}
+
+.hero-results-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.result-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
 }

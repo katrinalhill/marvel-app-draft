@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
 import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
-import Header from "./Header"
-import Navbar from './Navbar';
+
+
 
 import HomePage from "./HomePage";
 import MainSearch from "./MainSearch";
@@ -20,6 +22,7 @@ import AboutUs from "./AboutUs.js";
 import MostWanted from "./MostWanted.js"
 
 import './styling/app.css'
+import Navbar2 from "./Navbar2";
 
 
 function App() {
@@ -29,13 +32,17 @@ function App() {
   const value2 = {eventCon, setEventCon};
 
   return (
-    <>
-    <Header/>
-    <Router>
-    <Navbar/>
+    <> 
     
+    <Router>
+    
+    <Navbar2/>
+    
+    {/* <Navbar/> */}
+    <div className="full-page-container">
     <CharacterContext.Provider value={value}>
       <EventContext.Provider value={value2}>
+      {/* <Navbar2/> */}
       <Routes>
         <Route path="/" element={<HomePage/>} />
         <Route path="/characters" element={<MainSearch />} />
@@ -47,8 +54,10 @@ function App() {
       </Routes>
       </EventContext.Provider>
       </CharacterContext.Provider>
-      <Footer/>
+      
+      </div>
     </Router>
+    <Footer/>
     </>
   );
 }
