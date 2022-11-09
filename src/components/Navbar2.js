@@ -24,31 +24,33 @@ function Navbar2() {
             style={{ maxHeight: '100px' }}
             
             
+            
+            
   
             navbarScroll>
               <LinkContainer to="/">
-                <Nav.Link href="/"><h3>Home</h3></Nav.Link>
+                <Nav.Link href="/"><h3 className='option'>Home</h3></Nav.Link>
               </LinkContainer>
   
               <LinkContainer to="/characters">
-                 <Nav.Link href="#Profile"><h3>Profile</h3></Nav.Link>
+                 <Nav.Link href="#Profile"><h3 className='option'>Profile</h3></Nav.Link>
               </LinkContainer>
   
               <LinkContainer to="/events">
-                <Nav.Link href="#Events"><h3>Events</h3></Nav.Link>
+                <Nav.Link href="#Events"><h3 className='option'>Events</h3></Nav.Link>
               </LinkContainer>
               
               <LinkContainer to="/mostwanted">
-                  <Nav.Link href="Most Wanted"><h3>Most Wanted</h3></Nav.Link>
+                  <Nav.Link href="Most Wanted"><h3 className='option'>Most Wanted</h3></Nav.Link>
               </LinkContainer>
   
               <LinkContainer to="/about">
-                  <Nav.Link href="AboutUs"><h3>AboutUs</h3></Nav.Link>
+                  <Nav.Link href="AboutUs"><h3 className='option'>About Us</h3></Nav.Link>
               </LinkContainer>
             
           </Nav>
-          <LinkContainer to="/">
-          <Navbar.Brand href="#"><h4>U.S changeDepartment of Mutant Affairs (DOMA)</h4></Navbar.Brand>
+          <LinkContainer to="/about">
+          <Navbar.Brand href="#" className="text-muted"><h4 className="font-weight-bold" className="text-warning">U.S. Unofficial Department of Mutant Affairs (DOMA)</h4></Navbar.Brand>
         </LinkContainer>
        <Nav>
       

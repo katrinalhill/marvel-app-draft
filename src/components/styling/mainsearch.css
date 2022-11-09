@@ -7,9 +7,14 @@
   align-items: center; */
 
  
-  width: 200px;
-  height: 50px;
+  width: 300px;
+  height: 75px;
   margin: 120px auto;
+  padding: 40px;
+  border: 150px;
+  border-radius: 100%;
+  text-align: center;
+  
   /* text-align: center;
   display: inline-block; */
 
@@ -24,6 +29,7 @@
     gap: 1em;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
     
   }
 

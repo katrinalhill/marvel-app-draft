@@ -9,13 +9,16 @@ h1 {
   flex-direction: row;
   width: 50%;
   margin-left: 10%;
+  background-color: rgba(106, 106, 106, 0.2);
 }
 .leftright {
   display: flex;
   flex:1;
+  flex-grow: 2;
   gap: 0px;
   padding: 0px;
   margin: auto;
+  margin-top: 200px;
   height: 150px;
   justify-content: center;
   align-items: center;

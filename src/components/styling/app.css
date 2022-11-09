@@ -6,6 +6,7 @@
 @import 'footer.css';
 @import 'MostWanted.css';
 @import 'navbar2.css';
+@import 'aboutus.css';
 
 
 
@@ -15,7 +16,7 @@
     background-attachment: fixed;
     background-repeat: repeat;
     font-family: 'BentonSans, Cambria, Cochin, Georgia, Times, Times New Roman, serif';
-    min-height: 92.2vh;
+    min-height: 100vh;
     min-width: 100%;
     background-position: center center;
     margin: 0;

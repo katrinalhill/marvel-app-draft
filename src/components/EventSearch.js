@@ -62,7 +62,7 @@ return(
           </Link>
         ))}
   </div>
-  {isLoading && <div>Loading Events...</div>}  
+  {isLoading && <div className='loading'>Loading Events...</div>}  
   </>
 )
 

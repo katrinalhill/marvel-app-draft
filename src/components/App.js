@@ -54,10 +54,10 @@ function App() {
       </Routes>
       </EventContext.Provider>
       </CharacterContext.Provider>
-      
+      <Footer/>
       </div>
     </Router>
-    <Footer/>
+    
     </>
   );
 }

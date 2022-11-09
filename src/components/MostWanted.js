@@ -1,25 +1,106 @@
-// import { React, useState, useContext, useEffect} from 'react'
-// import {Link} from 'react-router-dom'
-// import EventContext from "./EventContext"
+
  import './styling/MostWanted.css'
+ import React, {useEffect, useState, useContext} from "react";
+ import HeroSearch from "./HeroSearch";
+ import useDebounce from "./useDebounce";
+ import CharacterContext from "./CharacterContext";
+ import { Link } from "react-router-dom";
+ 
+ //          <a href="/characters/423">
+
+//  <img src="https://www.superherodb.com/pictures2/portraits/10/100/12.jpg" height="150" padding="0" margin="0" />
+
+
+// <div className='hero-card' key={result.id}>
+// <img src={result.image.url} alt=''  height="150" padding="0" margin="0"/>
+//   <h4>{result.name}</h4>
+ 
+// </div>
+
+
+// ==================
+// troubleshooting.
+// {resultLocal.map((result) => (
+//   <Link to={`/characters/${resultLocal.id}`} onClick={() => {
+//      setCharacterCon(resultLocal)
+//    }} key={resultLocal.id}  className="Hero">
+//             <div className="box" key={resultLocal.id}>
+//             <div className="left">
+//               <img src={resultLocal.image.url} alt=''  height="150" padding="0" margin="0"/>
+//               </div>
+//               <div className="right">
+//                 MAGNETO
+//               </div>
+//             </div>
+//   </Link>
+//   ))} 
+//   ==================
+
+
+function SearchIndividuals(searchPhrase) {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [results, setResults] = useState([]);
+  const [isSearching, setIsSearching] = useState(false);
+  const [error, setError] = useState(false)
+  const debouncedSearchTerm = searchPhrase;
+  const resultLocal = [];
+
+  useEffect(
+    () => {
+      if (debouncedSearchTerm) {
+//        setIsSearching(true);
+//        setError(false);
+        HeroSearch(debouncedSearchTerm).then((results) => {
+          if (!results) {
+//              setIsSearching(false)
+//              setError(true)
+//              setResults([])
+return resultLocal;
+} else {
+//          setIsSearching(false);
+//          setResults(results);
+
+return resultLocal;
+}
+          
+        });
+      } else {
+//        setResults([]);
+//        setIsSearching(false);
+return resultLocal;
+}
+
+//      return resultLocal;
+    },
+    [debouncedSearchTerm] // Only call effect if debounced search term changes
+  );
+} 
 
 function MostWanted() {
+  const {setCharacterCon} = useContext(CharacterContext)
+//  const [results, setResults] = useState([]);
+  
+  // Effect for API call
+  //const resultsMagneto = SearchIndividuals('MAGNETO');
+  const resultLocal = SearchIndividuals('MAGNETO');
+console.log("results: ", resultLocal)
   return (
     <>
           <div className="box">
-          <div className="leftright">
-          <br /><br /><br /><br /><br /><br /><h1>TOP 10: MOST WANTED</h1>
-          </div>
+            <div className="leftright">
+              <h1>TOP 10:<br />MOST WANTED</h1>
+            </div>
           </div>
           <hr />
-          <div className="box">
-            <div className="left">
-              <img src="https://www.superherodb.com/pictures2/portraits/10/100/12.jpg" height="150" padding="0" margin="0" />
-            </div>
-            <div className="right">
-              MAGNETO
-            </div>
-          </div>
+
+
+
+
+ 
+ 
+          
+
+
           <hr />
           <div className="box">
             <div className="left">
@@ -77,6 +158,7 @@ function MostWanted() {
               <img src="https://www.superherodb.com/pictures2/portraits/10/100/792.jpg" height="150" /></div>
             <div className="right">SWAMP THING</div>
         </div>
+        <hr />
     </>
   )
 }

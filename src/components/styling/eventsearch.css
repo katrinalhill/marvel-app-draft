@@ -1,12 +1,22 @@
 .event-search-bar {
-  display: grid;
-  width: 200px;
-  height: 50px;
+  display: flex;
+  width: 300px;
+  height: 75px;
   justify-content: center;
   align-items: center;
   margin: 120px auto;
-}
+  border: 20px;
+  padding: 40px;
+  border-radius: 100%;
+  border-width: 5px;
+  border-color: black;
+  text-align: center;
 
+}
+.search-container{
+  position: sticky;
+  /* top: 120px; */
+}
 
 .events-container {
     display: flex;
@@ -15,6 +25,8 @@
     gap: 1em;
     margin-left: auto;
     margin-right: auto;
+    /* margin-top: 100px; */
+    margin-bottom: 100px;
     
   }
 
@@ -39,4 +51,21 @@
   font-size: 20px;
   color:black;
   background-color: rgb(187, 185, 183, .25);
+  }
+
+  .event-card:hover {
+    scale: 1.05;
+  }
+
+  .event-link-text:hover {
+    scale: 1.5;
+  }
+  .loading {
+    font-size: 50px;
+    color: rgb(69, 68, 68);
+    background-color: rgb(250, 239, 225, .4);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
   }

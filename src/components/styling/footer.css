@@ -11,27 +11,55 @@
     display: inline;
     float: left;
     display: block;
-    color: white;
+    color: gray;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 25px;
+    font-family:"Benson"
   
   }
   
-  li :hover{
+  /* li :hover{
     background-color: rgb(255, 255, 255);
   
-  }
+  } */
   
 
-  .top-container {
+  .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #333;
     height: 70px;
-    /* position: fixed; */
+    position: fixed;
     bottom:0;
+    width: 100%;
+  }
+  .cover:link {
+    text-decoration: none;
   }
   
+  .cover:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .cover {
+    color:gray;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+
+  }
+  
+  .cover:hover {
+    color: #fdec6e;
+    text-shadow:0px 0px 30px #fdec6e;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }
