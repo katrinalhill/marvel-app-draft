@@ -3,18 +3,22 @@
     font-family: "benson";
     align-items: center;
     background-color: rgba(159, 159, 158, 0.2);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     color: maroon;
     height: 600px;
+    display: block;
+    /* text-transform: ; */
+    /* font-size: .2vw; */
 }
 
 
 
 #aboutus-data-h{
-font-family: "benson";
+font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
 padding-left: 70px;
-font: bold italic 60px monospace;
+font: bold italic ;
 color: maroon;
+font-size: 50px;
 
 
 
@@ -25,15 +29,19 @@ color: maroon;
     font-family: "benson";
     padding-bottom: 100px;
     padding-left: 100px;
-    font: bold italic 40px monospace;
+    font: bold italic; 
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
     justify-content: space-between;
     color: maroon;
+    font-size: 30px;
  }
 
  #aboutuslist{
     color: maroon;
-    font: bold italic 35px monospace;
+    font: bold italic;   
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
     justify-content: space-between;
+    font-size: 30px;
  }
 
  .aboutus-images{

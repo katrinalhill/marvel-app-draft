@@ -3,7 +3,7 @@
     top:0;
     width:100%;
     z-index: 100;
-    font-family: 'BentonSans'
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
 }
 
 .option {
@@ -65,5 +65,5 @@
   color: gold;
   text-shadow: #fdec6e;
   font-weight: 100%;
-  font-family: 'BentonSans'
+  font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
 }

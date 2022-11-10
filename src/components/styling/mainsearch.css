@@ -14,9 +14,7 @@
   border: 150px;
   border-radius: 100%;
   text-align: center;
-  
-  /* text-align: center;
-  display: inline-block; */
+  display: flex;
 
 }
 

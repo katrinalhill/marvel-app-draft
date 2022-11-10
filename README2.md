@@ -8,6 +8,7 @@ Run Application-
     o node-modules -- npm install
     o react router-- router npm install react-router-dom
     o style Components npm install -- save styled-components
+    o bootstap - npm install react-bootstrap bootstrap
     o requires use of Marvel API (See details below)
     o npm start
 
@@ -23,12 +24,16 @@ Functionailities
 Built With
     o React
     o Style Component
+    o BootStrap
 
 React Reference Link-
 https://reactjs.org/docs/getting-started.html
 
 Style Component Reference Link-
-styled-components: https://styled-components.com/docs/basics
+https://styled-components.com/docs/basics
+
+Bootstap Reference Link:
+https://react-bootstrap.github.io/getting-started/introduction/
 
 Contributing
     Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
