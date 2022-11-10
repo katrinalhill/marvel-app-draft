@@ -1,25 +1,27 @@
-.aboutus{
-    margin-top: 200px;
+#aboutus{
+    margin-top: 150px;
     font-family: "benson";
     align-items: center;
     background-color: rgba(159, 159, 158, 0.2);
     margin-bottom: 100px;
+    color: maroon;
+    height: 600px;
 }
 
 
 
 #aboutus-data-h{
 font-family: "benson";
-
+padding-left: 70px;
 font: bold italic 60px monospace;
 color: maroon;
-text-align: left;
+
 
 
 }
 
 
-.aboutus-data-p{
+#aboutus-data-p{
     font-family: "benson";
     padding-bottom: 100px;
     padding-left: 100px;
@@ -28,8 +30,10 @@ text-align: left;
     color: maroon;
  }
 
- .aboutuslist{
+ #aboutuslist{
     color: maroon;
+    font: bold italic 35px monospace;
+    justify-content: space-between;
  }
 
  .aboutus-images{

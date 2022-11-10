@@ -50,7 +50,7 @@ function Navbar2() {
             
           </Nav>
           <LinkContainer to="/about">
-          <Navbar.Brand href="#" className="text-muted"><h4 className="font-weight-bold" className="text-warning">U.S. Unofficial Department of Mutant Affairs (DOMA)</h4></Navbar.Brand>
+          <Navbar.Brand href="#" className="text-muted"><h4 className="site-title">U.S. Unofficial Department of Mutant Affairs (DOMA)</h4></Navbar.Brand>
         </LinkContainer>
        <Nav>
       

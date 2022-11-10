@@ -6,18 +6,18 @@
 function AboutUs() {
   return (
     <div>
-    <div className ="aboutus">
+    <div id ="aboutus">
      
-      <h1 id="aboutus-data-h">Who Are We</h1>
-      <h2 className="aboutus-data-p"> Protectors, Defenders, and Servers of ViaCom City</h2>
+      <h2 id="aboutus-data-h">Who Are We</h2>
+      <h2 id="aboutus-data-p"> Protectors, Defenders, and Servers of ViaCom City</h2>
 
-      <h1 className="aboutus-data-h" > What We Investigate </h1>
-      <h2 className="aboutus-data-p" >
-        <li className = "aboutuslist">  Nefarious Activity -  </li>
-        <li className = "aboutuslist">  Cyber Crime -  </li>
-        <li className = "aboutuslist">  Public Corruption - </li>
-        <li className = "aboutuslist">  Freedom Fighting  -</li>
-        <li className = "aboutuslist">  Weapons of Mass Destruction -  </li>
+      <h2 id="aboutus-data-h"> What We Investigate </h2>
+      <h2 id="aboutus-data-p" >
+        <li id = "aboutuslist">  Nefarious Activity -  </li>
+        <li id = "aboutuslist">  Cyber Crime -  </li>
+        <li id = "aboutuslist">  Public Corruption - </li>
+        <li id = "aboutuslist">  Freedom Fighting  -</li>
+        <li id = "aboutuslist">  Weapons of Mass Destruction  </li>
      </h2>
       
     </div>

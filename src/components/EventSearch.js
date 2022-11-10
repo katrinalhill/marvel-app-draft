@@ -56,7 +56,7 @@ return(
         }} key={result.id}  className="Hero">
           <div className='event-card' key={result.id}>
             <img src={result.thumbnail.path +'.'+ result.thumbnail.extension} alt='' className='event-thumbnail'/>
-            <h4>{result.title}</h4>
+            <h4 id='title'>{result.title}</h4>
             
           </div>
           </Link>

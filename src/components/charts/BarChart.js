@@ -12,9 +12,10 @@ function BarChart({chartData}, ) {
       
       plugins: {
         legend:{
+          maxWidth: 1,
           reverse: true,
           position: 'top',
-          align: 'start',
+          align: 'center',
           labels: {
             color: 'white',
             
@@ -25,10 +26,10 @@ function BarChart({chartData}, ) {
       scales: {
           r: {
             angleLines: {
-              color: 'rgba(27,26,27, 0.8)'
+              color: 'rgba(255, 235, 243, 0.62)'
             },
             grid: {
-              color: 'rgba(27,26,27, 0.8)'
+              color: 'rgba(255, 235, 243, 0.62)'
             }, 
             pointLabels: {
               color: 'white',

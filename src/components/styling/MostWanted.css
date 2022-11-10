@@ -1,15 +1,11 @@
-h1 {
-  font: bold italic 60px monospace;
-  color: maroon;
-  width: 50%;
-  margin-left: 30%;
-}
 .box {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  /* width: 50%; */
   margin-left: 10%;
+  margin-right: 10%;
   background-color: rgba(106, 106, 106, 0.2);
+  margin-bottom: 25px;
 }
 .leftright {
   display: flex;
@@ -18,7 +14,7 @@ h1 {
   gap: 0px;
   padding: 0px;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 100px;
   height: 150px;
   justify-content: center;
   align-items: center;
@@ -28,7 +24,7 @@ h1 {
   flex:1;
   gap: 0px;
   padding: 0px;
-  margin: auto;
+  /* margin: auto; */
   height: 150px;
   justify-content: center;
   align-items: center;
@@ -53,4 +49,27 @@ hr {
   margin-top: 30px;
   margin-bottom:30px;
   margin-left: 10%;
+}
+
+#title-most-wanted {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font: bold italic 50px monospace;
+  color: maroon;
+  /* width: 50%;
+  margin-left: 20%; */
+  max-width: 100%;
+}
+
+.head {
+  background-color: rgba(106, 106, 106, 0.2);
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
