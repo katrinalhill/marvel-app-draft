@@ -23,7 +23,6 @@ const MainSearch = () => {
                 setIsSearching(false)
                 setError(true)
                 setResults([])
-                console.log(error)
             } else {
             setIsSearching(false);
             setResults(results);

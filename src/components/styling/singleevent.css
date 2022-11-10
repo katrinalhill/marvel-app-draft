@@ -84,7 +84,7 @@
 }
 
 .event-timeline{
-    display: flex;
+    display: block;
     flex-flow: wrap;
     background-color: rgba(102, 102, 102, 0.357);
     border-style: solid;

@@ -74,15 +74,16 @@
     }
     
     .character-info-container{
-        display: flex;
-        flex-flow: wrap;
+        display: block;
+        
         background-color: rgba(102, 102, 102, 0.357);
         border-style: solid;
         border-color: black;
         border-width: .05rem;
-        height: 500px;
+        height: fit-content;
         width: 350px;
         padding: .50rem; 
+        justify-content: left;
     }
     
     .events-container{
@@ -239,13 +240,7 @@
         text-decoration-line: none;
     }
     
-    .all-the-buttons{
-        display: flex; 
-         flex-wrap:wrap;
-        flex-flow:row;
-        flex-direction: row;
-        gap: 5px;
-    }
+
     
     /* need each button listed out for styling */
     
@@ -279,6 +274,18 @@
         width: 400px;
         height: 500px;
     }
+
+    .all-the-buttons{
+        display: flex; 
+         flex-wrap:wrap;
+        flex-flow:row;
+        flex-direction: row;
+        gap: 5px;
+        word-break: break-all;
+        font-weight: 400;
+        font-size: 400;
+        justify-items: center;
+    }
     
     .hiddenButton{
         display: none;
@@ -287,15 +294,43 @@
         font-weight: 400;
         border-radius: 8px;
         /* padding: 1px; */
+        outline:1px solid rgba(128, 0, 0, 0.52);
+        bottom:2px;
+        margin-top: 5px;
+        margin-left: 2px;
+        margin-right: 7px;
     }
     
     .hiddenButton2{
         visibility: hidden; 
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         color: white;
         font-weight: 400;
         border-radius: 8px;
         /* padding: 1px; */
+        outline:1px solid rgba(128, 0, 0, 0.52);
+    }
+
+    #compare-search{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-weight: 400;
+        border-radius: 12px;
+        outline:1px solid rgba(128, 0, 0, 0.52);
+        margin: 5px;
+    }
+    
+    .result-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+        color: white;
+        font-weight: 400;
+        border-radius: 8px;
+        outline:1px solid rgba(128, 0, 0, 0.52);
+        padding:1px;
     }
     
     .compare-container{
@@ -310,21 +345,3 @@
         justify-content: left;
     }
     
-    #compare-search{
-        background-color: black;
-        color: white;
-        font-weight: 400;
-        border-radius: 12px;
-    }
-    
-    .result-buttons{
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: black;
-        color: white;
-        font-weight: 400;
-        border-radius: 8px;
-        /* padding: 1px; */
-    }

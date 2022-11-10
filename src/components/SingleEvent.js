@@ -68,9 +68,9 @@ useEffect(() => {
           <div>
 
           <div className='event-timeline'>
-                    <b><u><h4 className='event-timeline-tag'>Event Timeline:</h4></u></b><br></br>
-                    <span>Start: {event.event.start}</span>
-                    <span>End: {event.event.end}</span>
+                    <b><u><h4 className='event-timeline-tag'>Event Timeline:</h4></u></b>
+                    <div>Start: {event.event.start}</div>
+                    <div>End: {event.event.end}</div>
                   </div>
                 <div className='event-description'>
                     <b><u><h4 className='description-tag'>Description: </h4></u></b>
@@ -80,9 +80,8 @@ useEffect(() => {
           </div>
 
 
-
-
         <div className="event-characters-container">
+          <u><h4>Assosciated Characters:</h4></u>
             <div className="event-character-list">{
                 (matchingResults.length === 0 ? <div>Loading... </div> : 
                     matchingResults.map((character, index) => (

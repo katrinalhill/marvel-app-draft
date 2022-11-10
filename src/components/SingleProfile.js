@@ -288,7 +288,7 @@ function Character({character, compare}) {
         <div className='character-info-container'>
 
         Biographical Data:
-        <span><u>Full Name:</u> {character.biography['full-name']}</span><br></br>
+        <div><u>Full Name:</u> {character.biography['full-name']}</div>
         <span><u> Base(s) of Operation:</u> {character.work.base}</span><br></br>
         <span><u> Occupation:</u> {character.work.occupation}</span><br></br>
         <span><u>Place of Birth:</u> {character.biography['place-of-birth']}</span><br></br>
@@ -301,8 +301,8 @@ function Character({character, compare}) {
 
 
 
-  <i><strong>Appearance:</strong></i><br></br>
-  <span><u>Species:</u> {character.appearance.race} {character.appearance.gender}</span><br></br>
+
+  <div><u>Species:</u> {character.appearance.race} {character.appearance.gender}</div>
   <span><u>Height:</u> {character.appearance.height[0]}</span><br></br>
   <span><u>Weight:</u> {character.appearance.weight[0]}</span><br></br>
   <span><u>Eye Color:</u> {character.appearance['eye-color']}</span><br></br>
@@ -310,8 +310,8 @@ function Character({character, compare}) {
 
 
 
-  <i><strong>Connections:</strong></i><br></br>
-  <span><u> Group-Affiliation:</u> {character.connections['group-affiliation']}</span><br></br>
+ 
+  <div><u> Group-Affiliation:</u> {character.connections['group-affiliation']}</div>
   </div>
 
 
