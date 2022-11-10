@@ -158,7 +158,7 @@ function Character({character, compare}) {
                     }} key={result.id}  className="Hero">
                       
                           <div className='result-buttons'>
-                            <button>{result.name}</button>
+                            <button className='result-buttons'>{result.name}</button>
                           </div>
                           
                       </div>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
  <>
- 
+ <img src="https://i.ibb.co/ZfVr2s9/mutant-registration-act-copy-2.png" className="home-img"></img>
  {/* <h1 className='title'>DOMA Directory Page</h1> */}
  <div className = 'home-button-container'>
   {/* <button className="noselect">Not Database</button>  */}

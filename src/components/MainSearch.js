@@ -23,6 +23,7 @@ const MainSearch = () => {
                 setIsSearching(false)
                 setError(true)
                 setResults([])
+                console.log(error)
             } else {
             setIsSearching(false);
             setResults(results);
@@ -38,12 +39,13 @@ const MainSearch = () => {
     );
     return (
       <>
+        
         <input
           className='main-search-bar'
           placeholder="Search DOMA Database"
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-        
+     
         <div className="hero-results-container">
         {results.map((result) => (
           <Link to={`/characters/${result.id}`} onClick={() => {
@@ -55,10 +57,11 @@ const MainSearch = () => {
             
           </div>
           </Link>
-        ))}        
+        ))} 
+          {error && <div className="error-message">No results found.</div>}
         </div>
         {isSearching && <div>Searching ...</div>}
-        {error && <div>No results found.</div>}
+        
       </>
     );
   }

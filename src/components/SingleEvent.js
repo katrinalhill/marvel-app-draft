@@ -54,31 +54,36 @@ useEffect(() => {
     
     
     <div className='event-container'>
-      
+
  
       
-      <div classname='flex-flex-flex'>
-      <div className='event-description'>
-          <b><u><h4 className='description-tag'>Description: </h4></u></b><br></br>
-          <span>{event.event.description}</span>
-        </div>
+    <div classname='flex-flex-flex'>
 
+      <div className='hope2'>
 
-        <div className='event-timeline'>
-          <b><u><h4 className='event-timeline-tag'>Event Timeline:</h4></u></b><br></br>
-          <span>Start: {event.event.start}</span>
-          <span>End: {event.event.end}</span>
-        </div>
-
-        <div className='single-event-image'>
+      <div className='single-event-image'>
             <img className='single-event-image' src={event.event.thumbnail.path +'.'+ event.event.thumbnail.extension} alt=''/>
       </div>
-      
 
-      <div className="event-characters-container">
-          {/* <b><u><h4 className='event-timeline-tag'>Assosciated Characters:</h4></u></b><br></br> */}
+          <div>
+
+          <div className='event-timeline'>
+                    <b><u><h4 className='event-timeline-tag'>Event Timeline:</h4></u></b><br></br>
+                    <span>Start: {event.event.start}</span>
+                    <span>End: {event.event.end}</span>
+                  </div>
+                <div className='event-description'>
+                    <b><u><h4 className='description-tag'>Description: </h4></u></b>
+                    <span>{event.event.description}</span>
+                  </div>
+
+          </div>
+
+
+
+
+        <div className="event-characters-container">
             <div className="event-character-list">{
-
                 (matchingResults.length === 0 ? <div>Loading... </div> : 
                     matchingResults.map((character, index) => (
                         <Link to={`/characters/${character.results[0].id}`} key={character.results[0].id} onClick={() => {
@@ -91,6 +96,15 @@ useEffect(() => {
                     )))
             }</div>
         </div>
+
+
+
+
+  </div>
+
+      
+
+
 
         
 

@@ -43,7 +43,7 @@ return(
         }}
         /> 
     </div>
-  <div className="events-container">
+  <div className="events-container2">
   {eventData.filter((value) => {
     if (searchTerm == "" ) {
       return value

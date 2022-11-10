@@ -33,7 +33,7 @@ function Navbar2() {
               </LinkContainer>
   
               <LinkContainer to="/characters">
-                 <Nav.Link href="#Profile"><h3 className='option'>Profile</h3></Nav.Link>
+                 <Nav.Link href="#Profile"><h3 className='option'>People</h3></Nav.Link>
               </LinkContainer>
   
               <LinkContainer to="/events">

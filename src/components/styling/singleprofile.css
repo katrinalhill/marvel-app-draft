@@ -1,7 +1,7 @@
 .single-profile-container{
     display: flex;
     padding-top: 6rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     }
     
     
@@ -17,6 +17,7 @@
         display: block;
         width: 100%;
         background-size: cover;
+        text-align: center;
         
     }
     
@@ -99,6 +100,7 @@
         height: fit-content;
         width: 100%;
         padding-bottom: 1rem;
+        margin-bottom: 70px;
         
         /* overflow: hidden; */
         /* grid-template-columns: repeat(3, 100px);
@@ -205,6 +207,7 @@
         text-align: center;
         align-content: center;
         justify-items: center;
+        text-decoration-line: none;
     }
     
         
@@ -279,10 +282,20 @@
     
     .hiddenButton{
         display: none;
+        background-color: black;
+        color: white;
+        font-weight: 400;
+        border-radius: 8px;
+        /* padding: 1px; */
     }
     
     .hiddenButton2{
         visibility: hidden; 
+        background-color: black;
+        color: white;
+        font-weight: 400;
+        border-radius: 8px;
+        /* padding: 1px; */
     }
     
     .compare-container{
@@ -298,7 +311,10 @@
     }
     
     #compare-search{
-        
+        background-color: black;
+        color: white;
+        font-weight: 400;
+        border-radius: 12px;
     }
     
     .result-buttons{
@@ -306,4 +322,9 @@
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
+        background-color: black;
+        color: white;
+        font-weight: 400;
+        border-radius: 8px;
+        /* padding: 1px; */
     }
